@@ -1,7 +1,7 @@
 # Seam_Carving
 Seam Carving Algorithm Used to Crop Images
 
-The purpose of this algorithm was to implement a version of the seam carving algorithm used to crop images effectively. With seam carving, an imaged is cropped by
+The purpose of this project was to implement a version of the seam carving algorithm used to crop images effectively in Photoshop. With seam carving, an imaged is cropped by
 making a seam across it that contains one pixel line. Each pixel from within the seam is then removed from the image. In order to determine which pixels to include
 in the seam, each pixel is given an energy value depending on how important it is for the image to be recognizable. At each iteration, the seam used to crop
 consists of the set of pixels that have the least total energy.
